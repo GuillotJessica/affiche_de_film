@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: Oswald;
+}
+body{
+  background-color: black;
+  height: 600px;
+  width: 500px;
+  border: 5px solid blue;
+}
+.affiche{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: inherit;
+}
+h1{
+  margin:1em auto 0 auto;
+  height: 30%;
+  font-size: 80px;
+  background-image: url(background.jpeg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2{
+  color: white;
+  transform:rotate(-90deg);
+}
+
+span{
+  color: red;
+}
